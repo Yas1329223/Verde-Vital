@@ -3,217 +3,322 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verde Vital - Jugos Naturales para Bajar de Peso</title>
-    <link rel="stylesheet" href="Css/style.css">
+    <title>Tienda Natural - Productos Orgánicos</title>
+    <link rel="stylesheet" href="\Users\aldan\OneDrive\Escritorio\pag\Css\style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container header-container">
             <div class="logo">
-                <img src="img/logo.png" alt="Verde Vital">
+                <img src="img/logo.png" alt="Logo Tienda Natural">
+                <span class="logo-text">Tienda Natural</span>
             </div>
             <nav>
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#beneficios">Beneficios</a></li>
                     <li><a href="#productos">Productos</a></li>
-                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Sección Hero -->
+    <!-- Hero Section -->
     <section class="hero" id="inicio" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hero-banner.jpg'); background-size: cover; background-position: center;">
         <div class="container">
-            <h1>Jugos Verdes Naturales</h1>
-            <p class="subtitle">Desintoxica tu cuerpo, aumenta tu energía y pierde peso naturalmente</p>
+            <h1>Productos Naturales para una Vida Saludable</h1>
+            <p>Desintoxica tu cuerpo, aumenta tu energía y pierde peso naturalmente</p>
             <a href="#productos" class="cta-button">
-  <span class="cta-text">Ver Productos</span>
-  <span class="cta-icon">
-    <i class="fas fa-arrow-right"></i>
-  </span>
-</a>
+                <span class="cta-text">Ver Productos</span>
+                <span class="cta-icon">
+                    <i class="fas fa-arrow-right"></i>
+                </span>
+            </a>
         </div>
     </section>
 
-    <!-- Sección de Beneficios-->
-    <section class="benefits" id="beneficios">
+    <!-- Beneficios -->
+<section class="benefits" id="beneficios">
     <div class="container">
-        <h2 class="section-title">Beneficios de Nuestros Jugos</h2>
+        <h2 class="section-title">Nuestros <span class="highlight">Beneficios</span></h2>
+        <p class="section-subtitle">Por qué elegir nuestros productos</p>
+        
         <div class="benefits-grid">
-            <!-- Beneficio 1 -->
             <div class="benefit-card">
                 <div class="benefit-icon">
-                    <i class="fas fa-weight"></i>
+                    <i class="fas fa-weight-scale" style="color: #2e8b57;"></i>
                 </div>
-                <h3 class="benefit-title">Pérdida de Peso</h3>
-                <p class="benefit-description">Ayuda a acelerar el metabolismo y quemar grasa naturalmente gracias a ingredientes como el jengibre y la toronja.</p>
-                <div class="benefit-tag">100% Natural</div>
+                <h3>Pérdida de Peso</h3>
+                <p>Ayuda a acelerar el metabolismo y quemar grasa naturalmente gracias a ingredientes como el jengibre y la toronja.</p>
+                <div class="benefit-footer">
+                    <span><i class="fas fa-check-circle"></i> 100% Natural</span>
+                </div>
             </div>
             
-            <!-- Beneficio 2 -->
             <div class="benefit-card">
                 <div class="benefit-icon">
-                    <i class="fas fa-bolt"></i>
+                    <i class="fas fa-bolt" style="color: #f8a44c;"></i>
                 </div>
-                <h3 class="benefit-title">Energía Natural</h3>
-                <p class="benefit-description">Proporciona energía sostenida sin cafeína ni azúcares añadidos, solo con el poder de frutas y verduras frescas.</p>
-                <div class="benefit-tag">Sin estimulantes</div>
+                <h3>Energía Natural</h3>
+                <p>Proporciona energía sostenida sin cafeína ni azúcares añadidos, solo con el poder de frutas y verduras frescas.</p>
+                <div class="benefit-footer">
+                    <span><i class="fas fa-battery-full"></i> Sin estimulantes</span>
+                </div>
             </div>
             
-            <!-- Beneficio 3 -->
             <div class="benefit-card">
                 <div class="benefit-icon">
-                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart-pulse" style="color: #e74c3c;"></i>
                 </div>
-                <h3 class="benefit-title">Salud Cardiovascular</h3>
-                <p class="benefit-description">Mejora la circulación y reduce el colesterol con ingredientes ricos en antioxidantes y fibra natural.</p>
-                <div class="benefit-tag">Corazón sano</div>
+                <h3>Salud Cardiovascular</h3>
+                <p>Mejora la circulación y reduce el colesterol con ingredientes ricos en antioxidantes y fibra natural.</p>
+                <div class="benefit-footer">
+                    <span><i class="fas fa-heartbeat"></i> Corazón sano</span>
+                </div>
             </div>
             
-            <!-- Beneficio 4 -->
             <div class="benefit-card">
                 <div class="benefit-icon">
-                    <i class="fas fa-leaf"></i>
+                    <i class="fas fa-leaf" style="color: #27ae60;"></i>
                 </div>
-                <h3 class="benefit-title">Desintoxicación</h3>
-                <p class="benefit-description">Elimina toxinas y mejora la función digestiva con nuestra mezcla especial de ingredientes depurativos.</p>
-                <div class="benefit-tag">Cuerpo limpio</div>
+                <h3>Desintoxicación</h3>
+                <p>Elimina toxinas y mejora la función digestiva con nuestra mezcla especial de ingredientes depurativos.</p>
+                <div class="benefit-footer">
+                    <span><i class="fas fa-recycle"></i> Cuerpo limpio</span>
+                </div>
             </div>
         </div>
     </div>
 </section>
-
-    <!-- Sección de Productos -->
-    <section class="products" id="productos">
-        <div class="container">
-            <h2>Nuestros Productos</h2>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-badge">Más vendido</div>
-                    <img src="img/producto1.jpg" alt="Jugo Detox">
-                    <h3>Jugo Detox</h3>
-                    <p class="price">$15.99</p>
-                    <p>Mezcla de espinaca, pepino, manzana y limón.</p>
-                    <div class="product-stats">
-                        <span><i class="fas fa-fire"></i> 120 cal</span>
-                        <span><i class="fas fa-clock"></i> 500ml</span>
-                    </div>
-                    <a href="#" class="cta-button small">Comprar</a>
+ 
+<!-- Productos -->
+<section class="products" id="productos">
+    <div class="container">
+        <h2 class="section-title">Jugos <span class="highlight">Detox</span></h2>
+        <p class="section-subtitle">Quemagrasas naturales para resultados visibles en 7 días</p>
+        
+        <div class="products-grid">
+            <!-- Jugo 1 -->
+            <div class="product-card">
+                <div class="product-badge">Más vendido</div>
+                <div class="product-image-container">
+                    <img src="img/producto1.jpg" alt="Jugo Verde Quemagrasa" class="product-image">
                 </div>
-                
-                <div class="product-card">
-                    <div class="product-badge">Nuevo</div>
-                    <img src="img/producto2.jpg" alt="Jugo Energía">
-                    <h3>Jugo Energía</h3>
-                    <p class="price">$17.99</p>
-                    <p>Kale, piña, jengibre y apio para un boost natural.</p>
-                    <div class="product-stats">
-                        <span><i class="fas fa-fire"></i> 135 cal</span>
-                        <span><i class="fas fa-clock"></i> 500ml</span>
+                <div class="product-info">
+                    <h3 class="product-title">Jugo Quemagrasa</h3>
+                    <div class="product-price">Q12.99 <span class="price-unit">/botella</span></div>
+                    
+                    <div class="product-features">
+                        <h4><i class="fas fa-blender"></i> Ingredientes activos:</h4>
+                        <ul class="ingredient-list">
+                            <li><i class="fas fa-check-circle"></i> Piña (bromelina)</li>
+                            <li><i class="fas fa-check-circle"></i> Jengibre (termogénico)</li>
+                            <li><i class="fas fa-check-circle"></i> Pepino (diurético)</li>
+                        </ul>
                     </div>
-                    <a href="#" class="cta-button small">Comprar</a>
+                    
+                    <div class="product-benefits">
+                        <h4><i class="fas fa-bolt"></i> Beneficios:</h4>
+                        <p>✔ Reduce 2-3 cm de cintura semanal<br>
+                        ✔ Elimina toxinas acumuladas<br>
+                        ✔ Acelera el metabolismo</p>
+                    </div>
+                    
+                    <div class="product-meta">
+                        <span><i class="fas fa-weight"></i> 500ml</span>
+                        <span><i class="fas fa-fire"></i> 92 calorías</span>
+                        <span><i class="fas fa-star"></i> 4.9</span>
+                    </div>
+                    <button class="product-button">
+                        <span>Comprar ahora</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
                 </div>
-                
-                <div class="product-card">
-                    <img src="img/producto3.jpg" alt="Jugo Pérdida de Peso">
-                    <h3>Jugo Quemagrasa</h3>
-                    <p class="price">$19.99</p>
-                    <p>Pepino, limón, perejil y toronja para acelerar el metabolismo.</p>
-                    <div class="product-stats">
-                        <span><i class="fas fa-fire"></i> 110 cal</span>
-                        <span><i class="fas fa-clock"></i> 500ml</span>
+            </div>
+            
+            <!-- Jugo 2 -->
+            <div class="product-card">
+                <div class="product-badge">Nuevo</div>
+                <div class="product-image-container">
+                    <img src="img/producto2.jpg" alt="Jugo Detox Express" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Detox Express</h3>
+                    <div class="product-price">Q15.99 <span class="price-unit">/botella</span></div>
+                    
+                    <div class="product-features">
+                        <h4><i class="fas fa-blender"></i> Ingredientes activos:</h4>
+                        <ul class="ingredient-list">
+                            <li><i class="fas fa-check-circle"></i> Espinaca (clorofila)</li>
+                            <li><i class="fas fa-check-circle"></i> Toronja (quemagrasa)</li>
+                            <li><i class="fas fa-check-circle"></i> Perejil (antioxidante)</li>
+                        </ul>
                     </div>
-                    <a href="#" class="cta-button small">Comprar</a>
+                    
+                    <div class="product-benefits">
+                        <h4><i class="fas fa-bolt"></i> Beneficios:</h4>
+                        <p>✔ Elimina líquidos retenidos<br>
+                        ✔ Limpia el colon en profundidad<br>
+                        ✔ Piel radiante en 3 días</p>
+                    </div>
+                    
+                    <div class="product-meta">
+                        <span><i class="fas fa-weight"></i> 500ml</span>
+                        <span><i class="fas fa-fire"></i> 85 calorías</span>
+                        <span><i class="fas fa-star"></i> 4.8</span>
+                    </div>
+                    <button class="product-button">
+                        <span>Comprar ahora</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Jugo 3 -->
+            <div class="product-card">
+                <div class="product-badge">Recomendado</div>
+                <div class="product-image-container">
+                    <img src="img/producto3.jpg" alt="Jugo Termogénico" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Termogénico</h3>
+                    <div class="product-price">Q18.99 <span class="price-unit">/botella</span></div>
+                    
+                    <div class="product-features">
+                        <h4><i class="fas fa-blender"></i> Ingredientes activos:</h4>
+                        <ul class="ingredient-list">
+                            <li><i class="fas fa-check-circle"></i> Kale (superalimento)</li>
+                            <li><i class="fas fa-check-circle"></i> Canela (regulador)</li>
+                            <li><i class="fas fa-check-circle"></i> Chía (fibra)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="product-benefits">
+                        <h4><i class="fas fa-bolt"></i> Beneficios:</h4>
+                        <p>✔ Quema 500% más calorías<br>
+                        ✔ Ideal pre-entrenamiento<br>
+                        ✔ Bloquea absorción de grasas</p>
+                    </div>
+                    
+                    <div class="product-meta">
+                        <span><i class="fas fa-weight"></i> 500ml</span>
+                        <span><i class="fas fa-fire"></i> 110 calorías</span>
+                        <span><i class="fas fa-star"></i> 5.0</span>
+                    </div>
+                    <button class="product-button">
+                        <span>Comprar ahora</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Pack Especial -->
+            <div class="product-card">
+                <div class="product-badge">Oferta</div>
+                <div class="product-image-container">
+                    <img src="img/producto4.jpg" alt="Pack 7 Días Detox" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Pack Detox 7 Días</h3>
+                    <div class="product-price"><span class="old-price">Q105.00</span> Q85.00</div>
+                    
+                    <div class="product-features">
+                        <h4><i class="fas fa-gift"></i> Incluye:</h4>
+                        <ul class="ingredient-list">
+                            <li><i class="fas fa-check-double"></i> 7 jugos variados</li>
+                            <li><i class="fas fa-check-double"></i> Guía alimenticia</li>
+                            <li><i class="fas fa-check-double"></i> Infusión drenante</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="product-benefits">
+                        <h4><i class="fas fa-trophy"></i> Resultados:</h4>
+                        <p>✔ 5-7 libras menos en semana<br>
+                        ✔ 80% menos toxinas<br>
+                        ✔ Efecto "after" prolongado</p>
+                    </div>
+                    
+                    <div class="product-meta">
+                        <span><i class="fas fa-weight"></i> 3.5L total</span>
+                        <span><i class="fas fa-fire"></i> 650 cal total</span>
+                        <span><i class="fas fa-star"></i> 4.9</span>
+                    </div>
+                    <button class="product-button product-button-special">
+                        <span>¡Quiero mi pack!</span>
+                        <i class="fas fa-bolt"></i>
+                    </button>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Sección de Testimonios -->
-    <section class="testimonials" id="testimonios">
-        <div class="container">
-            <h2>Lo que dicen nuestros clientes</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>"Perdí 8kg en un mes tomando los jugos Verde Vital cada mañana. ¡Increíble! Además tengo mucha más energía durante el día."</p>
-                    <div class="testimonial-author">
-                        <img src="img/cliente1.jpg" alt="María G.">
-                        <div>
-                            <h4>María G.</h4>
-                            <span>Clienta desde 2022</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <p>"Mi digestión mejoró notablemente desde que comencé con estos jugos. Ahora no empiezo mi día sin mi Verde Vital."</p>
-                    <div class="testimonial-author">
-                        <img src="img/cliente2.jpg" alt="Carlos M.">
-                        <div>
-                            <h4>Carlos M.</h4>
-                            <span>Clienta desde 2023</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
+        <div class="text-center" style="margin-top: 40px;">
+            <a href="#contacto" class="cta-button cta-secondary">
+                <span class="cta-text">Programa personalizado</span>
+                <span class="cta-icon">
+                    <i class="fas fa-user-md"></i>
+                </span>
+            </a>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Sección de Contacto -->
+    <!-- Contacto -->
     <section class="contact" id="contacto">
         <div class="container">
-            <h2>Contáctanos</h2>
+            <h2 class="section-title">Contáctanos</h2>
+            <p class="section-subtitle">Estamos aquí para ayudarte</p>
+            
             <div class="contact-grid">
                 <div class="contact-form">
                     <form>
                         <div class="form-group">
-                            <input type="text" placeholder="Nombre" required>
+                            <input type="text" placeholder="Nombre completo" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" placeholder="Email" required>
+                            <input type="email" placeholder="Correo electrónico" required>
                         </div>
                         <div class="form-group">
-                            <textarea placeholder="Mensaje" required></textarea>
+                            <input type="tel" placeholder="Teléfono (opcional)">
                         </div>
-                        <button type="submit" class="cta-button">Enviar Mensaje</button>
+                        <div class="form-group">
+                            <textarea placeholder="Tu mensaje..." required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">
+                            <span class="cta-text">Enviar mensaje</span>
+                            <span class="cta-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                        </button>
                     </form>
                 </div>
+                
                 <div class="contact-info">
                     <h3>Información de contacto</h3>
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <p>Av. Salud 123, Ciudad, País</p>
+                        <span>Zona 16, Universidad Rafael Landivar</span>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-phone"></i>
-                        <p>+1 (234) 567-8900</p>
+                        <span>+503 000 000 </span>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
-                        <p>info@verdevital.com</p>
+                        <span>Jugos@Verdevital.com</span>
                     </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Lunes a Viernes: 9am - 6pm<br>Sábados: 10am - 4pm</span>
+                    </div>
+                    
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -225,39 +330,50 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <img src="img/logo-white.png" alt="Verde Vital" class="footer-logo">
-                    <p>Jugos 100% naturales para una vida saludable y llena de energía.</p>
+                    <img src="img/logo.png" alt="Tienda Natural" class="footer-logo">
+                    <p>Productos naturales y orgánicos para una vida saludable y sostenible.</p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-amazon-pay"></i>
+                    </div>
                 </div>
+                
                 <div class="footer-col">
-                    <h3>Enlaces rápidos</h3>
-                    <ul>
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#beneficios">Beneficios</a></li>
-                        <li><a href="#productos">Productos</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
+                    <h3>Productos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Alimentos Orgánicos</a></li>
+                        <li><a href="#">Superfoods</a></li>
+                        <li><a href="#">Suplementos</a></li>
+                        <li><a href="#">Cuidado Personal</a></li>
+                        <li><a href="#">Hogar Ecológico</a></li>
                     </ul>
                 </div>
+                
                 <div class="footer-col">
-                    <h3>Horario</h3>
-                    <p>Lunes a Viernes: 9am - 7pm</p>
-                    <p>Sábados: 9am - 2pm</p>
-                    <p>Domingos: Cerrado</p>
+                    <h3>Compañía</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Nuestra Misión</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Trabaja con Nosotros</a></li>
+                        <li><a href="#">Proveedores</a></li>
+                    </ul>
                 </div>
+                
                 <div class="footer-col">
                     <h3>Newsletter</h3>
+                    <p>Suscríbete para recibir ofertas y novedades.</p>
                     <form class="newsletter-form">
-                        <input type="email" placeholder="Tu email">
+                        <input type="email" placeholder="Tu correo electrónico">
                         <button type="submit"><i class="fas fa-paper-plane"></i></button>
                     </form>
-                    <p>Suscríbete para recibir ofertas especiales.</p>
                 </div>
             </div>
+            
             <div class="copyright">
-                <p>&copy; 2023 Verde Vital. Todos los derechos reservados.</p>
-                <div class="legal-links">
-                    <a href="#">Términos y condiciones</a>
-                    <a href="#">Política de privacidad</a>
-                </div>
+                <p>&copy; 2025 Tienda Natural. Todos los derechos reservados. | <a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a></p>
             </div>
         </div>
     </footer>
