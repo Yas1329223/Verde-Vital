@@ -3,59 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jugo Verde Natural</title> 
+    <title>Verde Vital - Jugos Naturales para una Vida Saludable</title>
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-        header {
-            background-color: #2e8b57;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2e8b57;
-        }
-        .cta-button {
-            display: inline-block;
-            background-color: #2e8b57;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Jugo Verde Natural</h1>
-        <p>Salud, energía y pérdida de peso natural</p>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Verde Vital">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <div class="container">
-        <h2>Beneficios de nuestro jugo verde</h2>
-        <ul>
-            <li>Ayuda a bajar de peso naturalmente</li>
-            <li>Desintoxica tu organismo</li>
-            <li>Proporciona energía natural</li>
-            <li>Mejora tu digestión</li>
-        </ul>
-        
-        <a href="#" class="cta-button">¡Ordénalo ahora!</a>
-    </div>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h1>Jugos Verdes Naturales</h1>
+            <p class="subtitle">Desintoxica tu cuerpo, aumenta tu energía y pierde peso naturalmente</p>
+            <a href="#productos" class="cta-button">Ver Productos</a>
+        </div>
+    </section>
+
+    <section class="benefits" id="beneficios">
+        <div class="container">
+            <h2>Beneficios de Nuestros Jugos</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-weight"></i>
+                    <h3>Pérdida de Peso</h3>
+                    <p>Ayuda a acelerar el metabolismo y quemar grasa naturalmente.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Energía Natural</h3>
+                    <p>Proporciona energía sostenida sin cafeína ni azúcares añadidos.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Salud Cardiovascular</h3>
+                    <p>Mejora la circulación y reduce el colesterol.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Desintoxicación</h3>
+                    <p>Elimina toxinas y mejora la función digestiva.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="productos">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="img/jugo-detox.jpg" alt="Jugo Detox">
+                    <h3>Jugo Detox</h3>
+                    <p class="price">$15.99</p>
+                    <p>Mezcla de espinaca, pepino, manzana y limón.</p>
+                    <a href="#" class="cta-button small">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <img src="img/jugo-energia.jpg" alt="Jugo Energía">
+                    <h3>Jugo Energía</h3>
+                    <p class="price">$17.99</p>
+                    <p>Kale, piña, jengibre y apio para un boost natural.</p>
+                    <a href="#" class="cta-button small">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <img src="img/jugo-peso.jpg" alt="Jugo Pérdida de Peso">
+                    <h3>Jugo Pérdida de Peso</h3>
+                    <p class="price">$19.99</p>
+                    <p>Pepino, limón, perejil y toronja para acelerar el metabolismo.</p>
+                    <a href="#" class="cta-button small">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <h2>Testimonios</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="img/cliente1.jpg" alt="Cliente satisfecho">
+                    <p>"Perdí 8kg en un mes tomando los jugos Verde Vital. ¡Increíble!"</p>
+                    <h4>- María G.</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <img src="img/cliente2.jpg" alt="Cliente satisfecho">
+                    <p>"Mi energía aumentó notablemente desde que comencé con estos jugos."</p>
+                    <h4>- Carlos M.</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacto">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit" class="cta-button">Enviar Mensaje</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +1 (234) 567-8900</p>
+                <p><i class="fas fa-envelope"></i> info@verdevital.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Salud 123, Ciudad</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Verde Vital</h3>
+                    <p>Jugos 100% naturales para una vida saludable.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociales</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Verde Vital. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
